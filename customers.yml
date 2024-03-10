@@ -8,6 +8,9 @@ my-car-config:
   encrypt:
     password: 'sugarPass'
 
+server:
+  forward-headers-strategy: framework # enable access to Swagger/OpenApi documentation through reverse proxy (Gateway)
+
 spring:
   jpa:
     show-sql: true

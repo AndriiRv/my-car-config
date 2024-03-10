@@ -6,6 +6,9 @@ my-car-config:
   author: "{cipher}87d909bf62064620cf01e3b16a77bd145d4c8e4e960495845940ad29c809afd0"
   authors-social-account-url: "{cipher}d927a3d04f2c171f421eb759a3720f6f27e7ff5afc546eb8673266bb413f7ee4"
 
+server:
+  forward-headers-strategy: framework # enable access to Swagger/OpenApi documentation through reverse proxy (Gateway)
+
 spring:
   jpa:
     show-sql: true
