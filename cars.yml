@@ -7,6 +7,7 @@ my-car-config:
   authors-social-account-url: "{cipher}d927a3d04f2c171f421eb759a3720f6f27e7ff5afc546eb8673266bb413f7ee4"
 
 server:
+  shutdown: graceful
   forward-headers-strategy: framework # enable access to Swagger/OpenApi documentation through reverse proxy (Gateway)
 
 spring:

@@ -9,6 +9,7 @@ my-car-config:
     password: 'sugarPass'
 
 server:
+  shutdown: graceful
   forward-headers-strategy: framework # enable access to Swagger/OpenApi documentation through reverse proxy (Gateway)
 
 spring:
