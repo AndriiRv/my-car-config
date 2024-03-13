@@ -9,3 +9,6 @@ my-car-config:
 spring:
   jpa:
     show-sql: false
+  graphql:
+    graphiql:
+      enabled: false
